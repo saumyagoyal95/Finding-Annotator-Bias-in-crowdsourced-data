@@ -29,28 +29,29 @@ Even though the dataset was quite limited in length, which made the training of 
 
 What is the required configuration for running this code
 1. Jupyter Notebook
-2. Python Libraries used - 
+2. Libraries used - Pandas, Numpy, MatplotLib, math, pytorch, sklearn.metrics, scipy, torch
+3. GloVe encoding 
 
-## 🖥️ Installation <a name="installation"></a>
+## 🖥️ Description <a name="installation"></a>
 
-(optional)
-Steps on:  How can someone download and start using your code on their system
-Very detailed stepwise intruction. Can include what to avoid.
+
+<img src='https://github.com/saumyagoyal95/Siemens-Hackathon/blob/bf61a7c83d84765d0715d7b43aeb3d035c0c36e9/finding1.png' width=350px> <br>
 
 ## ✍️ Conclusion <a name="how-to-contribute"></a>
 
-We showed with the help of Latent Truth Network
-(LTNet)[2], architecture and bias modeling on the
+- I showed with the help of Latent Truth Network architecture and bias modeling on the
 singly-labelled crowdsourced data, how we can create an end-to-end model for finding the bias in the
 annotators.
-We figured out how the two approaches of LTNet
-and Fast David-Skene (FDS) [3] are different from
-each other for the bias modelling. The LTNet trained
+- I figured out how the two approaches of LTNet
+and Fast David-Skene (FDS) are different from
+each other for the bias modelling. 
+   - The LTNet trained
 in the end-to-end fashion considering the actual text
 for finding the latent truth and learning the attention
 vectors during the training and this latent truth then
 becomes the common ground for all the annotators
-bias matrices. Whereas in the latter approach of FDS,
+bias matrices. 
+   - The Fast David Skene,
 the ground truth sentiment for each sentence is found
 using the multi-labelled dataset.
 We found that the multi-labelled predictions that are
@@ -60,22 +61,23 @@ output of our experiment 1 and input of FDS is in line.
 This approach can thus help in finding the ground truth
 in the singly-labelled dataset, which is considered as a
 very difficult task.
-The bias and the confusion matrices produced by
+- The bias and the confusion matrices produced by
 our improved architecture was able to precisely detect
-the spammer amongst the annotators. Moreover, the
+the spammer amongst the annotators. 
+- The
 clustering of the annotators based on the bias matrix
 also seemed to work with our architecture. Also, the
 produced bias shows high robustness under very noisy
 conditions making the approach potentially usable outside
 of lab conditions.
-As we worked on just singly-labelled dataset, we tell
+- I worked on just singly-labelled dataset, we tell
 that if finding ground truth is not absolutely necessary
 we can ignore the chaining part and find the bias in
 the annotators with the end-to-end latent truth model
 approach, whereas if their is the necessity to find the
 ground truth labels chaining of the two architecture
 could result in potential outcome.
-We believe it is necessary to conduct more experiments
+- I believe it is necessary to conduct more experiments
 on more datasets from different sources to solidify
 our conclusions regarding our hybrid approach of
 finding ground truths, as the singly-labelled crowdsourcing
