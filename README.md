@@ -8,7 +8,7 @@ source : https://www.educba.com/crowdsourcing-data <br>
   
 [About](#about) •
 [Configuration Requirements](#configuration-requirements) •
-[Installation](#installation) •
+[Graphs and Findings](#installation) •
 [Conclusion](#how-to-contribute)  
   
 </div>
