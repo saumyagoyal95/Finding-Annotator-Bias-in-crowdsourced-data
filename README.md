@@ -15,7 +15,15 @@ source : https://www.educba.com/crowdsourcing-data <br>
 
 ## 📒 About <a name="about"></a>
 
-Crowdsourcing has experienced a big boom with the increasing interest in obtaining labelled data. It is a powerfulway of obtaining data in a cheaper and faster way. However, annotator biases and spammers can affect the final quality of the models created with this data. In our paper, we use different end-to-end methods such as Latent Truth Network and Fast Dawid-Skene to try and model annotator-specific biases as bias matrices. These models will help us obtain the ground truth estimation with the help of the singlylabelled Organic dataset. Apart from these, we also propose a new method where we combine both models by creating predictions to convert our dataset into a multi-labelled one. We modelled the biases of each annotator to see if their annotations are reliable or not, and to detect possible spammers. Apart from these, we also clustered the bias matrices to discover groups of annotators that approach the labelling task in the same way. We were able to find these different groups of annotators and by adding noise to one of the annotators, we also were able to cluster it as a spammer. Even though our dataset was quite limited in length, which made the training of bias matrices hard, we were able to show our approach can indeed model biases for annotator clustering and spammer detection.
+Crowdsourcing has experienced a big boom with the increasing interest in obtaining labelled data. It is a powerfulway of obtaining data in a cheaper and faster way. However, annotator biases and spammers can affect the final quality of the models created with this data. 
+
+In the project, 
+- I used different end-to-end methods such as Latent Truth Network and Fast Dawid-Skene to try and model annotator-specific biases as bias matrices. These models will help obtain the ground truth estimation with the help of the singlylabelled Organic dataset. 
+- I also propose a new method where we combine both models by creating predictions to convert our dataset into a multi-labelled one. 
+- I modelled the biases of each annotator to see if their annotations are reliable or not, and to detect possible spammers. 
+- I clustered the bias matrices to discover groups of annotators that approach the labelling task in the same way. I was able to find these different groups of annotators and by adding noise to one of the annotators, I was also were able to cluster it as a spammer. 
+ 
+Even though the dataset was quite limited in length, which made the training of bias matrices hard, I was able to show that the approach can indeed model biases for annotator clustering and spammer detection.
 
 ## 👨‍💻 Configuration Requirements <a name="configuration-requirements"></a>
 
