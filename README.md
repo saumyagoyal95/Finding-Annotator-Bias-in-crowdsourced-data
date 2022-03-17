@@ -32,10 +32,24 @@ What is the required configuration for running this code
 2. Libraries used - Pandas, Numpy, MatplotLib, math, pytorch, sklearn.metrics, scipy, torch
 3. GloVe encoding 
 
-## 🖥️ Description <a name="installation"></a>
+## 🖥️ Graphs and Findings <a name="installation"></a>
 
+1. Available Latent Network Architecture
 
-<img src='https://github.com/saumyagoyal95/Siemens-Hackathon/blob/bf61a7c83d84765d0715d7b43aeb3d035c0c36e9/finding1.png' width=350px> <br>
+<img src='https://github.com/saumyagoyal95/Finding-Annotator-Bias-in-crowdsourced-data/blob/628e9633eff636905c588e650f2c6baf3b8d076b/Images/Base%20Architecture.png' width=350px> <br>
+
+2. Ingenious Hybrid Architecture
+
+<img src='https://github.com/saumyagoyal95/Finding-Annotator-Bias-in-crowdsourced-data/blob/628e9633eff636905c588e650f2c6baf3b8d076b/Images/Hybrid%20Architecture.png' width=350px> <br>
+
+3. Clustering Similar Annotators
+
+<img src='https://github.com/saumyagoyal95/Finding-Annotator-Bias-in-crowdsourced-data/blob/628e9633eff636905c588e650f2c6baf3b8d076b/Images/Clustering.png' width=350px> <br>
+
+4. Spammer Detection
+
+<img src='https://github.com/saumyagoyal95/Finding-Annotator-Bias-in-crowdsourced-data/blob/628e9633eff636905c588e650f2c6baf3b8d076b/Images/Spammer%20Detection.png' width=350px> <br>
+
 
 ## ✍️ Conclusion <a name="how-to-contribute"></a>
 
